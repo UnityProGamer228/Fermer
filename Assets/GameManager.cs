@@ -45,8 +45,5 @@ public class GameManager : MonoBehaviour
     SceneManager.LoadScene("Prototype 2");
    }
     
-    void Update()
-    {
-        
-    }
+    
 }  
