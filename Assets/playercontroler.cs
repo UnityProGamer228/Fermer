@@ -49,7 +49,7 @@ if(transform.position.x<-xRange)
         transform.position=new Vector3(-xRange,transform.position.y,transform.position.z);
       }
 
-      if(Input.GetKeyDown(KeyCode.Mouse2) && !GM.GameOver)
+      if(Input.GetKeyDown(KeyCode.Mouse0) && !GM.GameOver)
     {
       Instantiate(banana,transform.position,banana.transform.rotation);
     }
